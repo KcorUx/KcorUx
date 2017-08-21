@@ -1,2 +1,0 @@
-# KcorUx
-Hello world!
