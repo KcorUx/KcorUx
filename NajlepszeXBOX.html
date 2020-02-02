@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<HTML lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<title>TOP GRY</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/fontello.css" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bitter|Droid+Sans+Mono|Libre+Baskerville" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	
+		<script src="jquery.scrollTo.min.js"></script>
+	
+	<script>
+		
+		jQuery(function($)
+		{
+			//zresetuj scrolla
+			$.scrollTo(0);
+
+			$('#link1').click(function() { $.scrollTo($('.RDR1'), 500); });
+			$('#link2').click(function() { $.scrollTo($('.DA1'), 600); });
+			$('#link3').click(function() { $.scrollTo($('.Darksiders1'), 700); });
+			$('#link4').click(function() { $.scrollTo($('.Fable1'), 800); });
+			$('#link5').click(function() { $.scrollTo($('.GOW1'), 900); });
+			
+			
+			$('.scrollup').click(function() { $.scrollTo($('body'), 1000); });
+		}
+		);
+		
+		//pokaż podczas przewijania
+		$(window).scroll(function()
+		{
+			if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+			else $('.scrollup').fadeOut();		
+		}
+		);
+	
+	
+	</script>
+	
+	</head>	
+	<body>
+		<div id="container">
+					<a href="#" class="scrollup"></a>
+			<div class="rectangle">	
+			<div class="logo">
+		<h1><a href="index.html"style="text-decoration:none"><img src="logo.png" width="210" height="170"/>  </a></h1>
+		</div>
+	
+	<div class="kolumna">
+   <ol>
+    <li><a href="Top10.html">Top 10</a>
+    </li>
+    <li><a href="NajnowszeProdukcje.html">Najnowsze produkcje</a>
+    </li>
+    <li><a href="Wyczekiwane.html">Wyczekiwane</a>
+	</li>
+    <li><a href="#" >Najlepsze gry</a>
+      <ul>
+        <li><a href="NajlepszePC.html">PC</a></li>
+        <li><a href="NajlepszeXBOX.html">X BOX</a></li>
+        <li><a href="NajlepszePS.html">PS</a></li>
+		<li><a href="NajlepszeMobile.html">Mobilne</a><li> 
+      </ul>
+    </li>
+  </ol>	
+  </div>
+  </div>
+  <div id="NajlepszeXBOX">
+  <center> 
+ <div class="XBOX">
+<div id="RDR">
+<a id="link1" href="#" style="text-decoration:none"><font color="black">Red Dead Redemption</a></font>
+</div>
+<div id="DA">
+<a id="link2" href="#" style="text-decoration:none"><font color="black">Dragon Age</a></font>
+</div>
+<div id="Darksiders">
+<a id="link3" href="#" style="text-decoration:none"><font color="black">Darksiders</a></font>
+</div>
+<div id="Fable">
+<a id="link4" href="#" style="text-decoration:none"><font color="black">Fable 2</a></font>
+</div>
+<div id="GOW">
+<a id="link5" href="#" style="text-decoration:none"><font color="black">Gears of War</a></font>
+</div>
+  </div>
+</center>
+	<div class="RDR1">
+	<center><b><i>Red Dead Redemption</i></b></center>
+	<div class="zdRDR">
+	<img src="NajlepszeNa/RDR.png" height="270" width="480">
+	</div>
+	<div class="RDRtekst">
+	Red Dead Redemption to western, którego poprzednia część, Red Dead Revolver, ukazała się w 2004 roku na konsole Xbox i PlayStation 2. Druga część serii nie jest jednak w żadnej mierze kontynuacją, ale oddzielną historią rozgrywającą się w zupełnie innym okresie. Za stworzenie drugiej części odpowiada studio Rockstar San Diego, czyli jeden z oddziałów firmy, którą zwykliśmy kojarzyć przede wszystkim z serią Grand Theft Auto. Twórcy tej produkcji pracowali także przy wyścigach Midnight Club oraz świetnej symulacji tenisa stołowego Table Tennis.
+	</div>
+	</div>
+		<div class="DA1">
+	<center><b><i>Dragon Age</i></b></center>
+	<div class="zdDA">
+	<img src="NajlepszeNa/DA.png" height="270" width="480">
+	</div>
+	<div class="DAtekst">
+	Fantastyczny RPG z widokiem TPP wyprodukowany przez studio BioWare. Po stworzeniu bohatera i zebraniu drużyny wyruszamy w podróż po magicznej krainie Ferelden, pełnej unikalnych postaci, przedmiotów, stworów i lokacji. Gra posiada bogate podłoże fabularne, interesujący system walki, a także świetną oprawę audiowizualną. Pozycja obowiązkowa dla każdego fana RPG oraz miłośników serii Baldur’s Gate czy Icewind Dale.Dragon Age: Początek to gra cRPG stworzona w całości przez studio BioWare. Dla kanadyjskiego dewelopera projekt ten stanowi powrót do korzeni, po tym, jak w 1998 roku firma zasłynęła w świecie kultowym Baldur’s Gate, a potem wsławiła się w gatunku role-playing takimi dziełami, jak Neverwinter Nights, Knights of the Old Republic czy Mass Effect.
+	</div>
+	</div>
+			<div class="Darksiders1">
+	<center><b><i>Darksiders</i></b></center>
+	<div class="zdDarksiders">
+	<img src="NajlepszeNa/DS.png" height="270" width="480">
+	</div>
+	<div class="Darksiderstekst">
+	Gra akcji z elementami RPG, w której wcielamy się w postać Wojny, jednego z Czterech Jeźdźców Apokalipsy. Akcja oparta jest o Apokalipsę Św. Jana. Z nieznanych przyczyn nasz bohater zostaje zdradzony po czym pojawia się na placu boju pomiędzy siłami piekła i nieba, niszcząc wszystko co napotka na swojej drodze z pomocą obszernego arsenału.Fabuła nawiązuje do treści Apokalipsy św. Jana. Wcielamy się w Wojnę, jednego z zapowiedzianych przez ewangelistę Czterech Jeźdźców. Przybywa on na Ziemię, by dokonać jej zniszczenia, ale okazuje się, że został podstępnie zdradzony. W konsekwencji nasz bohater utracił większość swoich mocy. Jakby tego było mało, staje się celem piekielnych i niebiańskich ataków. Osamotniony Wojna wraca na Ziemię i wyrusza, by odzyskać zdolności, odnaleźć zaginionego rumaka i odkryć tajemnicę zdrady.
+	</div>
+	</div>
+				<div class="Fable1">
+	<center><b><i>Fable 2</i></b></center>
+	<div class="zdFable">
+	<img src="NajlepszeNa/Fable2.png" height="270" width="480">
+	</div>
+	<div class="Fabletekst">
+	Fable 2 jest kontynuacją słynnej gry z gatunku cRPG, stworzonej przez elektroniczno-rozrywkowego mistrza w osobie Petera Molyneuxa. Demiurg ów przygotował sequel specjalnie z myślą o stacjonarnej konsoli Xbox 360. Scenariusz ponownie przenosi nas do fantastycznego Albionu, przypominającego nieco Anglię. Tym razem jednak akcja toczy się mniej więcej pięćset lat później. Upływ czasu widać przede wszystkim w budownictwie, ubiorach i uzbrojeniu (w użyciu jest np. broń palna), chociaż zmianie uległo również chociażby prawo. Generalnie wirtualne uniwersum nie przypomina już europejskiego średniowiecza, lecz raczej epokę podbojów kolonialnych.
+	</div>
+	</div>
+					<div class="GOW1">
+	<center><b><i>Gears of War</i></b></center>
+	<div class="zdGOW">
+	<img src="NajlepszeNa/GOW.png" height="270" width="480">
+	</div>
+	<div class="GOWtekst">
+	Gears of War jest kolejnym elektroniczno-rozrywkowym przedsięwzięciem twórców bestsellerowej serii Unreal. W odróżnieniu od marki Unreal Tournament i Unreal Championship developerzy postanowili skupić się na trybie zabawy jednoosobowej, chociaż nie zaniedbano również opcji multiplayer, oferującej przykładowo interesujący system kooperacji z drużyną komandosów. Niniejszy produkt łączy najlepsze cechy gier akcji z elementami gatunku survival horror, a zatem w pewnym sensie przypomina Doom 3 i pamiętny cykl System Shock, aczkolwiek bieg wydarzeń ukazano z perspektywy trzeciej osoby.
+	</div>
+	</div>
+	<div id="footer3">
+<center><b>Top Gry &copy; 2017 <i>Strona by Kacper&Jakub</i></b></center>
+</div>
+  </div>
+  </div>
+  </body>
